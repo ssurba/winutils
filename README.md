@@ -7,3 +7,7 @@
 
 ### 2. Winutils.h:
       Rename GetFileInformationByName() to GetFileInformationByNameW() throughout the solution
+
+### 3. Hadoop native library:
+      Before compiling hadoop native library, run:
+      mvn -T 1C clean install -DskipTests
